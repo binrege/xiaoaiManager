@@ -7,7 +7,7 @@ module.exports = {
     secret: 'ksjvksbvisbvwrvmwrbke',
     accessKeyId: 'LTAI4GHFiBz47Enrc3WKGPkc', // 阿里云短信key
     secretAccessKey: 'CDsRqMyJYQ64iSW5WHkdLVXDUGRJWv', // 阿里云短信accessKey
-    whitePath: ['/', '/users/login', '/users/phoneLogin', '/users/githubLogin', '/api/users/githubLogin', '/users/register', '/users/githubUser', '/users/captcha', '/users/sendMsg',
+    whitePath: ['/', '/users/login', '/users/phoneLogin', '/users/githubLogin', '/api/users/githubLogin', '/users/register', '/users/captcha', '/users/githubUser', '/users/captcha', '/users/sendMsg',
         '/users/findPwd', '/users/logout', /^\/api/, /\.(jpg|jepg|gif|png)$/
     ], // 忽略验证的接口
 }
